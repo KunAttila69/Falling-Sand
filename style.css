@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    height: 50%;
+    width: 60%;
+    border: 5px solid black;
+    border-spacing: 0;
+}
+.tile{   
+    border: 1px solid rgba(0, 0, 0, 0.327);
+}
